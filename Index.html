@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>trabalho de projeto integrador</title>
+    <style>
+    body {
+      background-image: url(https://images.unsplash.com/photo-1658341042959-54bb106598f0?q=80&w=1315&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+      background-position: center;
+      background-repeat: no-repeat;
+      min-height: 100vh;
+      background-size: cover;
+      text-align: center;
+    }
+      button {
+        width: 140px;
+        height: 70px;
+        border-radius: 8px;
+        border: none;
+        display: block;
+        margin: 20px auto;
+        background-color: rgb(173, 216,250);
+      }
+      h1, h2, h3, h4, h5, h6, p {
+        background-color: rgba(0,0,0,0.5);
+        color:white;
+      }
+      p {
+        max-width: 700px;
+        margin:10px auto;
+        padding: 10px;
+      }
+      img {
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <p>nomes: Lukas, Richarty, Agata, Evelin</p>
+    </header>
+    <main>
+    <h1>Introdução de pesquisa: Principais problemas da engenharia civil local</h1>
+    <p>vamos começar com 3 problemas basicos da engenharia civil do Rio Grande do Sul</p>
+    <button onclick="fun()">buracos nas estradas</button>
+    <div id="res1"></div>
+    <button onclick="fun2()">instalação de energia nos postes</button>
+    <div id="res2"></div>
+    <button onclick="fun3()">drenagem e caimento</button>
+    <div id="res3"></div>
+    </main>
+  </body>
+  <script>
+    function fun() {
+     let n1 =document.getElementById("res1")
+     if (n1.innerHTML !== "") {
+       n1.innerHTML = "";
+     }
+     else {
+       n1.innerHTML = `<p>Por que as estradas do rio grande do sul têm tantos buracos?<p>
+      <img src="https://images.pexels.com/photos/5688465/pexels-photo-5688465.jpeg?_gl=1*1adh1uj*_ga*MTQwODMxNDU5Ni4xNzc2NzExMTIx*_ga_8JE65Q40S6*czE3NzY3MTExMjAkbzEkZzEkdDE3NzY3MTExNDUkajM1JGwwJGgw"
+      style="width:150px; display: block; margin:10px auto;">
+      
+<p>são formados tantos buracos por diversos fatores, como:
+
+Efeitos da manutenção de estradas, deterioração do pavimento, drenagem, precipitação e carga de tráfego nos danos às estradas no Rio Grande do Sul.
+
+Estradas com muitos buracos são resultado da combinação de solo, clima, tráfego pesado e falta de manutenção adequada. Estudos feitos no Rio Grande do Sul e em outras regiões ajudam a entender por que isso acontece.
+
+Principais mecanismos que geram buracos
+
+Tráfego pesado e sobrecarga de caminhões : cargas acima do limite aceleram deformações permanentes (trilhas de roda, afundamentos) e fissuras, que depois evoluem para buracos
+
+Água no pavimento e no subleito : a variação do lençol freático e a alta umidade aumentam as deformações e reduzem a capacidade do solo de base, causando afundamentos e fissuras
+
+Chuva e clima : nas rodovias brasileiras, os buracos aumentam claramente na estação chuvosa, quando a água penetra nas fissuras e enfraquece o revestimento
+
+Erosão e drenagem ruins : canais de erosão e enxarradas em estradas de terra e acostamentos removem material, deformam a seção transversal e abrem caminho para buracos<p>
+<img src="https://images.pexels.com/photos/31172239/pexels-photo-31172239.jpeg?_gl=1*bo2kqt*_ga*MTQwODMxNDU5Ni4xNzc2NzExMTIx*_ga_8JE65Q40S6*czE3NzY3MTExMjAkbzEkZzEkdDE3NzY3MTE2NTUkajI1JGwwJGgw"
+style="width:150px; display: block; margin:10px auto;">`
+     }
+    }
+    function fun2() {
+      let n2 =document.getElementById("res2")
+     if (n2.innerHTML !== "") {
+       n2.innerHTML = "";
+     }
+     else {
+       n2.innerHTML =
+      document.getElementById("res2").innerHTML=`<p>Problemas na distribuição de energia no RS<p>
+      <img src="https://images.pexels.com/photos/12384810/pexels-photo-12384810.jpeg?_gl=1*mwezb2*_ga*MTQwODMxNDU5Ni4xNzc2NzExMTIx*_ga_8JE65Q40S6*czE3NzY3MTExMjAkbzEkZzEkdDE3NzY3MTE5NjIkajEkbDAkaDA."
+style="width:220px; margin:10 px auto;">
+<p>
+Principais problemas operacionais na rede de distribuição
+
+Clima extremo: as ocorrências mais comuns na área científica da Rio Grande Energia (RGE), em Palmeira das Missões (RS), são danos causados por raios e vendas , que danificam rede, postes e equipamentos
+
+Aumento da demanda e acúmulo de serviços: crescimento do consumo e das desvantagens gera fila de atendimento , especialmente em situações de tempestades
+
+Falta de pessoal: há escassez de equipes de campo , o que atrasa deslocamentos para manutenções e reparos na rede aérea
+
+Fatores de atendimento e gestão
+Tempo de deslocamento: as autoridades apontam o tempo para chegar ao local da ocorrência como principal ponto a ser melhorado
+
+Atendimento ao consumidor: a qualidade do atendimento telefônico não atende à legislação vigente e é vista como um problema relevante na prestação do serviço<p>
+<img src="https://images.pexels.com/photos/13478050/pexels-photo-13478050.jpeg?_gl=1*igkwn7*_ga*MTQwODMxNDU5Ni4xNzc2NzExMTIx*_ga_8JE65Q40S6*czE3NzY3MTExMjAkbzEkZzEkdDE3NzY3MTI0NzMkajI3JGwwJGgw"
+style="width:340px; display: block; margin: 10px auto">`
+    }
+    }
+    function fun3() {
+      let n3 =document.getElementById("res3")
+     if (n3.innerHTML !== "") {
+       n3.innerHTML = "";
+     }
+     else {
+       n3.innerHTML =
+      document.getElementById("res3").innerHTML=`<p>Problemas de transferência e alagamentos no RS<p>
+      <img src="https://images.pexels.com/photos/6240578/pexels-photo-6240578.jpeg?_gl=1*1ict60i*_ga*MTQwODMxNDU5Ni4xNzc2NzExMTIx*_ga_8JE65Q40S6*czE3NzY3MTExMjAkbzEkZzEkdDE3NzY3MTI2NDckajIzJGwwJGgw"
+      style="width:300px; display: block;margin:10px auto">
+      
+<p>Os problemas de drenagem e alagamentos no Rio Grande do Sul decorrem da combinação de chuvas mais intensas, ocupação urbana e rural pouco planejada e infraestrutura de drenagem insuficiente ou mal mantida. Em eventos extremos recentes, a fragilidade institucional e de políticas ambientais amplificam ainda mais os danos.
+
+Fatores climáticos e geográficos
+
+Chuvas intensas e mais frequentes geram alagamentos nos principais centros urbanos (Porto Alegre, Pelotas, Caxias do Sul, Santa Maria), com tendência de aumento de casos ao longo das décadas
+
+A suscetibilidade hidroclimática de áreas como o entorno do Guaíba, somada a solos já saturados por eventos sucessivos, agrava enchentes como a partir de 2024
+
+Urbanização, impermeabilização e ocupação do solo
+
+Porto Alegre, mais urbanizada, apresenta menores limiares de chuva para alagamento , diminuindo maior sensibilidade da cidade a eventos intensos
+
+Crescimento desordenado, aumento de áreas impermeáveis e ocupação de várzeas eliminam áreas naturais de armazenamento e escoamento, elevando o risco de enchentes urbanas
+
+Ocupações em áreas vulneráveis, sem infraestrutura adequada, ampliam riscos de inundações e penetraçãos<p>
+<img src="https://images.pexels.com/photos/29608837/pexels-photo-29608837.jpeg?_gl=1*1sh026c*_ga*MTQwODMxNDU5Ni4xNzc2NzExMTIx*_ga_8JE65Q40S6*czE3NzY3MTExMjAkbzEkZzEkdDE3NzY3MTI5ODUkajU5JGwwJGgw"
+style="width:350px; display: block; margin: 10px auto">`
+    }
+    }
+  </script>
+</html>
