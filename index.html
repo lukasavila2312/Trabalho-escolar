@@ -2,67 +2,76 @@
 <html>
 <head>
   <title>trabalho de projeto integrador</title>
+
   <style>
     body {
-      background-image: url(https://images.unsplash.com/photo-1658341042959-54bb106598f0?q=80&w=1315&auto=format&fit=crop);
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      min-height: 100vh;
       margin: 0;
       font-family: Arial, sans-serif;
 
+      background-image: url(https://images.unsplash.com/photo-1658341042959-54bb106598f0?q=80&w=1315&auto=format&fit=crop);
+      background-size: cover;
+      background-position: center;
+
       display: flex;
       justify-content: center;
-      align-items: center;
     }
 
     main {
-      width: 95%;
-      max-width: 1000px;
-      background-color: rgba(0,0,0,0.6);
-      padding: 25px;
+      width: 90%;
+      max-width: 1200px;
+      background-color: rgba(0,0,0,0.7);
+      padding: 40px;
       border-radius: 15px;
+      margin: 40px 0;
       text-align: center;
     }
 
     header p {
       color: white;
-      font-size: 18px;
+      font-size: 20px;
+      margin-bottom: 20px;
     }
 
     h1 {
       color: white;
-      font-size: 30px;
+      font-size: 36px;
+      text-align: center;
+      margin-bottom: 25px;
     }
 
     p {
       color: white;
-      font-size: 18px;
-      line-height: 1.5;
+      font-size: 20px;
+      line-height: 1.6;
+      text-align: justify;
+      margin: 20px auto;
+      max-width: 900px;
     }
 
     button {
-      width: 100%;
-      height: 90px;
-      border-radius: 10px;
+      width: 80%;
+      max-width: 700px;
+      height: 100px;
+      border-radius: 12px;
       border: none;
-      margin: 20px 0;
-      background-color: rgb(173, 216,250);
+      margin: 25px auto;
+      background-color: rgb(173, 216, 250);
       cursor: pointer;
-      font-size: 22px;
+      display: block;
     }
 
-    h3 {
+    button h3 {
+      font-size: 26px;
       margin: 0;
     }
 
     img {
-      border-radius: 10px;
-      max-width: 100%;
+      width: 80%;
+      max-width: 800px;
       height: auto;
+      border-radius: 12px;
       display: block;
-      margin: 15px auto;
+      margin: 25px auto;
     }
   </style>
 </head>
@@ -75,15 +84,17 @@
 
     <h1>Introdução de pesquisa: Principais problemas da engenharia civil local</h1>
 
-    <p>vamos começar com 3 problemas basicos da engenharia civil do Rio Grande do Sul</p>
+    <p style="text-align:center;">
+      vamos começar com 3 problemas basicos da engenharia civil do Rio Grande do Sul
+    </p>
 
-    <button onclick="fun()"><h3>buracos nas estradas</h3></button>
+    <button onclick="fun()"><h3>Buracos nas estradas</h3></button>
     <div id="res1"></div>
 
-    <button onclick="fun2()"><h3>instalação de energia nos postes</h3></button>
+    <button onclick="fun2()"><h3>Instalação de energia nos postes</h3></button>
     <div id="res2"></div>
 
-    <button onclick="fun3()"><h3>drenagem e caimento</h3></button>
+    <button onclick="fun3()"><h3>Drenagem e caimento</h3></button>
     <div id="res3"></div>
   </main>
 
@@ -129,15 +140,15 @@ function fun2() {
 <p>
 Principais problemas operacionais na rede de distribuição
 
-Clima extremo: as ocorrências mais comuns na área científica da Rio Grande Energia (RGE), em Palmeira das Missões (RS), são danos causados por raios e ventos, que danificam rede, postes e equipamentos
+Clima extremo: danos por raios e ventos
 
-Aumento da demanda e acúmulo de serviços: crescimento do consumo gera fila de atendimento, especialmente em tempestades
+Aumento da demanda: sobrecarga do sistema
 
-Falta de pessoal: há escassez de equipes de campo, o que atrasa manutenções
+Falta de pessoal: demora nos reparos
 
-Tempo de deslocamento: demora para chegar ao local é um dos maiores problemas
+Tempo de deslocamento: atrasos no atendimento
 
-Atendimento ao consumidor: qualidade do atendimento não atende totalmente</p>
+Atendimento ao consumidor: qualidade abaixo do esperado</p>
 
 <img src="https://images.pexels.com/photos/13478050/pexels-photo-13478050.jpeg">`
   }
@@ -152,13 +163,9 @@ function fun3() {
 
 <img src="https://images.pexels.com/photos/6240578/pexels-photo-6240578.jpeg">
 
-<p>Os problemas de drenagem e alagamentos no Rio Grande do Sul decorrem da combinação de chuvas mais intensas, ocupação urbana e rural pouco planejada e infraestrutura insuficiente.
+<p>Chuvas intensas, urbanização desordenada e falta de drenagem causam alagamentos em várias cidades do RS.
 
-Chuvas intensas geram alagamentos em cidades como Porto Alegre, Pelotas e Caxias do Sul.
-
-Urbanização desordenada e impermeabilização aumentam o risco de enchentes.
-
-Ocupações em áreas vulneráveis ampliam os danos.</p>
+Áreas impermeáveis e ocupações irregulares aumentam o risco de enchentes.</p>
 
 <img src="https://images.pexels.com/photos/29608837/pexels-photo-29608837.jpeg">`
   }
